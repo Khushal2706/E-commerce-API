@@ -12,6 +12,12 @@ const productController = new ProductController();
 
 // All the paths to the controller methods.
 // localhost/api/products 
+// Query parameter
+// localhosy:3200/api-products/filter?minPrice=10&maxPrice=20&category=category1
+productRouter.get(
+    '/filter',
+    productController.filterProducts
+);
 productRouter.get(
     '/', 
 productController.getAllProducts
@@ -20,6 +26,8 @@ productRouter.post(
     '/', 
 upload.single('imageUrl'), 
 productController.addProduct);
+
+productRouter.get("/:id", productController.getOneProduct);
 
 
 export default productRouter;
