@@ -1,6 +1,16 @@
 PRODUCTS:-
-1. Get Products.
-2. Add a Product.
-3. Get One Product.
-4. Rate Product.
-5. filter Product.
+1. Get Products. - DONE
+2. Add a Product. - DONE
+3. Get One Product. - DONE
+4. Rate Product.- DONE
+5. filter Product. -DONE
+Rate Product
+get items to cart
+get items of cart
+removes item from cart
+
+
+
+User Controller :-
+user signup- Email, name , password, typeOfUser(Customer,seller)
+user Signin- Email, password
